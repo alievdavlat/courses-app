@@ -1,5 +1,6 @@
 import React from "react";
 import WelcomeBanner from "./components/WelcomeBanner";
+import CoursesList from "./components/CoursesList";
 
 const page = () => {
   return (
@@ -8,6 +9,10 @@ const page = () => {
       <div className="col-span-2">
         {/* banner */}
         <WelcomeBanner />
+
+        {/* courses list  */}
+
+        <CoursesList/>
       </div>
 
       {/* right container */}
